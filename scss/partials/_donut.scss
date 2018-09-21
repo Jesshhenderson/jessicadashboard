@@ -1,0 +1,48 @@
+// Donut Chart
+
+.sect3title {
+	font-family: $font;
+	color: $black;
+	background-color: $beige;
+	letter-spacing: 1.5px;
+	text-align:center;
+	margin: 0 auto;
+	padding: 20px;
+}
+.section3 {
+	background-color: $beige;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	height: 100%;
+
+	@include medium {
+	    height: 100%;
+	}
+
+	@include small {
+	    height:100%;
+	}
+}
+
+	.doughnut {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		// height: 500px;
+		width: 33.3333333%;
+		background-color: $beige;
+		margin-bottom: 50px;
+		color: $red;
+
+
+		@include medium {
+	    	flex-wrap:wrap;
+	    	width: 100%;
+	    }
+
+	    @include small {
+	        flex-wrap:wrap;
+	        width: 100%;
+	    }
+	}

@@ -1,0 +1,69 @@
+// Main
+
+html, body {
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  // overflow-x: hidden;
+}
+
+h1 {
+  font-family: $logoFont;
+  color: $black;
+  font-size: $logoFontSize;
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+  padding-left: 120px;
+}
+
+h2,h3,h4,h5,h6 {
+  font-family: $font;
+}
+
+p {
+  font-family: $font;
+  color: $black;
+}
+
+main {
+  display: block;
+  box-sizing: inherit;
+  width: 100%;
+  font-family: $font;
+  
+  
+  .navbar {
+    position: fixed;
+    width: 100%;
+    height: 185px;
+    top: 0;
+    right: 0;
+    background: $beige;
+    
+    @include medium {
+      width:75%;
+    }
+    @include small {
+      position: static;
+      width:100%;
+    }
+  }
+  .page {
+    width: 85%;
+    min-height: 100%;
+    top: 100px;
+    margin-left: 15%;
+    right: 0;
+    
+    @include medium {
+      width:75%;
+      margin-left:25%
+    }
+    @include small {
+      width:100%;
+      margin-left:0;
+    }
+  }
+  
+}

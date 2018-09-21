@@ -1,0 +1,118 @@
+// Links to Profile.js and minimenu.js
+.img-container {
+    padding: 10px;
+}
+
+.beachbum {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.user-status {
+    display: flex;
+    justify-content: center;
+    font-family: $font;
+}
+
+h2 {
+    font-family: $font;
+    font-weight: light;
+    color: $beige;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    margin-left: 15px;
+    width: 80%;
+    border-bottom: solid 1px $beige;
+}
+
+p {
+    color: $beige;
+    letter-spacing: 3px;
+}
+
+.sidebar {
+    z-index: 5;
+    display: block;
+    position: fixed;
+    width: 15%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: $red;
+    box-sizing: inherit;
+
+    @include medium {
+        width: 25%;
+    }
+
+    @include small {
+        position: static;
+        width: 100%;
+    }
+
+    .dash-menu {
+        display: block;
+        box-sizing: inherit;
+        margin: 25px 0;
+        padding: 0;
+        width: 100%;
+        z-index: 5;
+        font-family: $bodyFont;
+        letter-spacing: 1.5px; 
+
+        h3 {
+          display: block;
+        //   box-sizing: inherit;
+        //   font-family: $font;
+        //   font-size: 15pt;
+        //   text-align: center;
+        //   letter-spacing: 1.9px;
+        //   color: $beige;
+          width: 80%;
+          margin: 0 auto;
+        //   margin-top: 0;
+        //   margin-bottom: 20px;
+        //   padding-bottom: 10px;
+          padding-top: 5px;
+          border-bottom: 1px solid $beige;
+        //   @include medium {
+        //     font-size: 12pt;
+        //   }
+        //   @include small {
+        //     font-size: 10pt;
+        //   }
+         }
+        ul {
+            display: block;
+            box-sizing: inherit;
+            margin: 0;
+            padding: 50px 0;
+            list-style-type: none;
+
+            li {
+                display: block;
+                box-sizing: inherit;
+                width: 80%;
+                margin: 0 auto;
+                margin-bottom: 10px;
+                padding-bottom: 10px; // border-bottom: 1px solid $lightText;
+                a {
+                    color: $beige;
+                    text-decoration: none;
+                    font-size: 12pt;
+
+                    i.fa {
+                        float: right;
+                        margin-top: 6px;
+                    }
+                }
+                a:hover {
+                    color: $yellow;
+                }
+            }
+        }
+    }
+}

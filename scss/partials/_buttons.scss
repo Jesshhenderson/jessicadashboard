@@ -1,0 +1,35 @@
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left:0;
+}
+
+.button {
+    margin: 0 auto;
+}
+.btnlite {
+    border: none;
+    font-size: 10pt;
+    box-shadow: none;
+    padding: 4px;
+    width:12%;
+    text-decoration: none;
+    color: $black;
+    background-color: $beige;
+}
+
+.btndark {
+    border: none;
+    font-size: 10pt;
+    box-shadow: none;
+    padding: 4px;
+    width:12%;
+    text-decoration: none;
+    color: $beige;
+    background-color: $greyBlue;
+}
+
+li {
+    list-style: none;
+}

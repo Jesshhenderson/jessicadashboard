@@ -1,0 +1,63 @@
+main.dark {
+
+	.sidebar {
+		background: $teal;
+	}
+
+	.navbar {
+		background: $greyBlue;
+
+		ul li a.active {
+			color: $beige;
+		}
+
+		#logotitle h1 {
+			color: $beige;
+		}
+	}
+
+	#salesman-stats {
+		background-color: $pink;
+
+		.card-sales-stats {
+			background: $greyBlue;
+
+			.profile-banner {
+				border-bottom: $beige;
+
+				h2 {
+					color: $beige;
+				}
+
+				h5 {
+					color: $beige;
+				}
+			}
+
+			.monthly-target {
+				border-bottom: $beige;
+
+				h2 {
+					color: $beige;
+				}
+			}
+		}
+	}
+
+	.sect3title {
+		background-color: $greyBlue;
+		color: $beige;
+	}
+
+	.section3 {
+		background-color: $greyBlue;
+	}
+
+	.doughnut {
+		background-color: $greyBlue;
+
+		text {
+			color: $beige;
+		}
+	}
+}

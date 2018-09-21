@@ -1,0 +1,17 @@
+// Employee Profile Cards
+
+#employeeprofile {
+	background-color: $yellow;
+	height: 70vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	// flex-wrap: wrap;
+
+	.profile-container {
+		width: 80%;
+		height: 75vh;
+		top: 0;
+		bottom:0;
+	}
+}

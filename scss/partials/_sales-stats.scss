@@ -1,0 +1,65 @@
+#salesman-stats {
+	padding:50px;
+	display:flex;
+	justify-content:space-around;
+	flex-wrap: wrap;
+	background-color: $yellow;
+	
+	.card-sales-stats {
+		flex:1;
+		margin:50px;
+		padding:50px;
+		box-shadow: 0 6px 16px -4px $bgSidebar;
+		background: $beige;
+		text-align: center;
+		transition: 0.4s; 
+
+		.profile-banner {
+			border-bottom: solid 1px $black;
+
+			h2 {
+				color: $lightText;
+				font-family: $font;
+				font-size: $profileNames;
+				font-weight: $fontRegular;
+				letter-spacing: 1px;
+			}
+
+			h5 {
+				font-family: $bodyFont;
+				font-weight: 500;
+				letter-spacing: 1.5px;
+				color: $lightText;
+				margin-top: -15px;
+			}
+		}
+
+		.monthly-target {
+			display:flex;
+			flex-wrap:wrap;
+			border-bottom: solid 1px $black;
+
+			h2 {
+				width:100%;
+				color: $lightText;
+				font-family: $bodyFont;
+				font-size: $profileTarget;
+				font-weight: 350;
+				letter-spacing: 1.2px;
+				margin: 12px 0 12px 0;
+			}
+			
+			}
+
+		#img-container {
+
+			img {
+				max-width: 80%;
+			}
+		}
+
+	}
+	.card-sales-stats:hover {
+		transform: translate(0px,-20px);
+	}
+}
